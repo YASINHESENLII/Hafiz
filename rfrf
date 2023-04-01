@@ -1,0 +1,17 @@
+)
+  {
+ tbody.innerHTML += <tr>
+  <td>$(input1.value)</td>
+  <td>$(input2.value)</td>
+  <td>$(input3.value)</td>
+ </tr>;
+  }
+  input1.value="";
+  input2.value="";
+  input3.value="";
+
+
+});function(){
+  if(input1.value.trim() != ""&&
+  input2.value.trim() != ""&&
+  input3.value.trim() != ""
